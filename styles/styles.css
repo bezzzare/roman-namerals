@@ -1,0 +1,70 @@
+body {
+    all: unset;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:#E0E5EC;
+}
+.card {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color:#E0E5EC;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 100%;
+}
+
+.input {
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 6px;
+    padding-left: 6px;
+    box-shadow: -9px -9px 16px rgb(255,255,255,0.5), 9px 9px 16px rgba(163,177,198, 0.6);
+}
+
+h2 {
+    margin: 0;
+    font-weight: 500;
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+h3 {
+    margin: 12px 0 0 0;
+    font-weight: 500;
+    align-self: flex-start;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.roman-input {
+    text-transform: uppercase;
+}
+
+.roman-input::placeholder {
+    text-transform: initial;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
+    font-size: 24px;
+    margin-bottom: 8px;
+    padding-left: 6px;
+}
